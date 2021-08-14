@@ -1,0 +1,34 @@
+# crisis.yuiseki.net
+
+- https://crisis.yuiseki.net/api/news?limit=1000&page=1&category=poverty&country=日本&confirmed=true
+  - limit
+    - 取得するニュース記事の上限です
+    - デフォルトは100件です
+    - 1000件が最大です
+    - 例
+      - 200
+  - page
+    - 取得するページです
+    - デフォルトは1です
+    - 例
+      - 2
+  - category
+    - 取得するニュース記事をカテゴリーで絞り込みます
+    - デフォルトは絞り込みません
+    - 例
+      - poverty
+  - country
+    - 取得するニュース記事を国で絞り込みます
+    - デフォルトは絞り込みません
+    - 例
+      - 日本
+  - confirmed
+    - マスメディアからのニュース記事のみに絞り込みます
+    - デフォルトは絞り込みません
+    - 例
+      - true
+  - hasLocation
+    - 位置情報が判定できたニュース記事のみに絞り込みます
+    - デフォルトは絞り込みません
+    - 例
+      - true
