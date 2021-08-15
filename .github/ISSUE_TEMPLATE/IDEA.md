@@ -2,7 +2,7 @@
 name: アイデア提案
 about: 貧困問題解消のためのデータ分析や可視化のアイデア
 title: ''
-labels: ''
+labels: 'idea'
 assignees: ''
 
 ---
