@@ -1,3 +1,5 @@
+wheel
+
 requests
 numpy
 scipy
