@@ -1,0 +1,16 @@
+requests
+numpy
+scipy
+pandas
+janome
+japanize_matplotlib
+
+gensim
+python-Levenshtein
+pyLDAvis
+wordcloud
+
+
+networkx
+japanmap
+xlrd
