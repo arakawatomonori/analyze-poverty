@@ -1,4 +1,4 @@
-FROM python:3.8-bullseye
+FROM continuumio/anaconda3:2022.05
 
 RUN apt update && apt install -y \
     git \
@@ -15,6 +15,8 @@ RUN pip install --upgrade setuptools
 
 WORKDIR /app
 COPY . /app
+
+RUN pip install -r requirements.txt
 
 EXPOSE 30000
 EXPOSE 50000
