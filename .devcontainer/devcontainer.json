@@ -25,15 +25,18 @@
         "python.pythonPath": "/usr/local/bin/python"
       },
       "extensions": [
-        "MS-CEINTL.vscode-language-pack-ja",
-        "wraith13.bracket-lens",
-        "vscode-icons-team.vscode-icons",
-        "oderwat.indent-rainbow",
-        "VisualStudioExptTeam.vscodeintellicode",
-        "mosapride.zenkaku",
-        "ms-python.python",
-        "ms-vsliveshare.vsliveshare"
-      ]
+		"MS-CEINTL.vscode-language-pack-ja",
+		"wraith13.bracket-lens",
+		"vscode-icons-team.vscode-icons",
+		"oderwat.indent-rainbow",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"mosapride.zenkaku",
+		"ms-python.python",
+		"ms-vsliveshare.vsliveshare",
+		"ms-toolsai.jupyter",
+		"ms-python.vscode-pylance",
+		"ms-toolsai.jupyter-renderers"
+	]
     }
   }
 }
