@@ -8,7 +8,6 @@ janome
 japanize_matplotlib
 
 gensim
-python-Levenshtein
 pyLDAvis
 wordcloud
 
