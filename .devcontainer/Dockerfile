@@ -1,4 +1,4 @@
-FROM continuumio/anaconda3:2022.05
+FROM python:3.10.5-bullseye
 
 RUN apt update && apt install -y \
     git \
@@ -6,12 +6,14 @@ RUN apt update && apt install -y \
     vim \
     htop \
     jq \
-    nkf
+    nkf \
+    libgl1-mesa-dev
 
 RUN curl -fsSL https://get.docker.com | sh
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
+RUN pip install --upgrade ipykernel
 
 WORKDIR /app
 COPY . /app
