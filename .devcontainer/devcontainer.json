@@ -32,7 +32,9 @@
         "VisualStudioExptTeam.vscodeintellicode",
         "mosapride.zenkaku",
         "ms-python.python",
-        "ms-vsliveshare.vsliveshare"
+        "ms-vsliveshare.vsliveshare",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance"
       ]
     }
   }
