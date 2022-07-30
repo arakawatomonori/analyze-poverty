@@ -1,16 +1,7 @@
 {
-  "name": "Docker from Docker",
+  "name": "Dockerfile",
   "context": "..",
   "dockerFile": "./Dockerfile",
-  "forwardPorts": [30000, 50000],
-  "runArgs": ["--init"],
-  "mounts": [
-    "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
-  ],
-  "overrideCommand": false,
-  "remoteEnv": {
-    "LOCAL_WORKSPACE_FOLDER": "${localWorkspaceFolder}"
-  },
   "remoteUser": "user",
   "customizations": {
     "vscode": {
