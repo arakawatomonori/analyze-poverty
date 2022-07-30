@@ -12,7 +12,12 @@ gensim
 pyLDAvis
 wordcloud
 
-
 networkx
+
 japanmap
+
 xlrd
+
+convertdate
+prophet
+plotly
