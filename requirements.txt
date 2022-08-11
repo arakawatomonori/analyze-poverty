@@ -1,26 +1,33 @@
-ipykernel
 wheel
 
+ipykernel
+ipywidgets
+
+# utils
 requests
-numpy
-scipy
-pandas
-janome
-japanize_matplotlib
-
-gensim
-pyLDAvis
-wordcloud
-
-networkx
-
-japanmap
-
-xlrd
-
 convertdate
+
+scipy
+numpy
+pandas
+pandas-profiling
 prophet
+
+# Visualize
+japanize_matplotlib
+japanmap
 plotly
 
+# NLP
+janome
 spaCy
 ja-ginza
+gensim
+wordcloud
+pyLDAvis
+
+# Network
+networkx
+
+# Excel
+xlrd
