@@ -21,3 +21,6 @@ xlrd
 convertdate
 prophet
 plotly
+
+spaCy
+ja-ginza
